@@ -96,16 +96,17 @@ $discs = [
             <section class="">
                 <div class="container">
                     <ul class="albumWrap">
+                        <!-- ciclo php    -->
                         <li class="card album">
 
                             <figure class="cardThumb">
-                                <img :src="album.poster" alt="">
+                                immagine
                             </figure>
 
                             <div class="infoCard">
-                                <h3>titolo </h3>
-                                <p>autore</p>
-                                <p>anno </p>
+                                <h3 class="titleCard">titolo </h3>
+                                <p class="authorCard">autore</p>
+                                <p class="yearCard">anno </p>
 
                             </div>
 

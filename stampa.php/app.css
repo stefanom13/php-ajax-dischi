@@ -8,51 +8,84 @@ img {
     max-width: 100%;
     display: block;
 }
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    text-decoration: currentColor;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
 .headerLogo {
     /* background-color: rgba(255,255,255, 0.1); */
     background-color: rgb(183, 179, 179);
-    padding:10px 8px;
-    position:fixed;
-    top:0;
-    left:0;
-    right:0;
-  
+    padding: 10px 8px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
 }
-figure{
-    width:100px; 
+
+figure {
+    width: 100px;
 }
+
 /* main */
 
 .mainContent {
     background-color: #1e2d3b;
-    min-height:100vh;
-    display:flex;
+    min-height: 100vh;
+    display: flex;
     align-items: center;
     justify-content: center;
-    padding:90px 20px;
+    padding: 90px 20px;
 
 }
+
 /* card */
 /*  */
-.albumWrap{
+.albumWrap {
     display: flex;
     flex-wrap: wrap;
     gap: 30px calc(5% / 4);
 
 }
-.albumWrap li{
-    width: 19%;
-    padding:5px;
-}
-.album{
-    text-align: center;
-    background-color:rgba(white,0.1);
-    padding:8px;
 
-    
+.albumWrap li {
+    width: 19%;
+    padding: 5px;
 }
-.infoCard{
+
+.album {
+    text-align: center;
+    background-color: rgba(white, 0.1);
+    padding: 8px;
+
+
+}
+
+.infoCard {
     font-size: 15px;
 
+}
 
+.titleCard {
+    padding: 10px;
+}
+
+.authorCard {
+    color: rgba(white, 0.2);
+}
+
+.yearCard {
+    color: rgba(white, 0.2);
 }
