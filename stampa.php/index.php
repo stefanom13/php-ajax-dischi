@@ -92,6 +92,28 @@ $discs = [
                 <img src="./Spotify_Logo.png" alt="">
             </figure>
         </header>
+        <main class="mainContent">
+            <section class="">
+                <div class="container">
+                    <ul class="albumWrap">
+                        <li class="card album">
+
+                            <figure class="cardThumb">
+                                <img :src="album.poster" alt="">
+                            </figure>
+
+                            <div class="infoCard">
+                                <h3>titolo </h3>
+                                <p>autore</p>
+                                <p>anno </p>
+
+                            </div>
+
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </main>
     </div>
 </body>
 

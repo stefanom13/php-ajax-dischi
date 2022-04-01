@@ -9,7 +9,8 @@ img {
     display: block;
 }
 .headerLogo {
-    background-color: lightgrey;
+    /* background-color: rgba(255,255,255, 0.1); */
+    background-color: rgb(183, 179, 179);
     padding:10px 8px;
     position:fixed;
     top:0;
@@ -19,4 +20,39 @@ img {
 }
 figure{
     width:100px; 
+}
+/* main */
+
+.mainContent {
+    background-color: #1e2d3b;
+    min-height:100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding:90px 20px;
+
+}
+/* card */
+/*  */
+.albumWrap{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px calc(5% / 4);
+
+}
+.albumWrap li{
+    width: 19%;
+    padding:5px;
+}
+.album{
+    text-align: center;
+    background-color:rgba(white,0.1);
+    padding:8px;
+
+    
+}
+.infoCard{
+    font-size: 15px;
+
+
 }
