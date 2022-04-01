@@ -8,3 +8,15 @@ img {
     max-width: 100%;
     display: block;
 }
+.headerLogo {
+    background-color: lightgrey;
+    padding:10px 8px;
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+  
+}
+figure{
+    width:100px; 
+}
