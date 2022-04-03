@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: white;
 }
 
 img {
@@ -26,7 +27,7 @@ a {
 
 .headerLogo {
     /* background-color: rgba(255,255,255, 0.1); */
-    background-color: rgb(183, 179, 179);
+    background-color:rgba(255, 255, 255, 0.121);
     padding: 10px 8px;
     position: fixed;
     top: 0;
@@ -67,7 +68,8 @@ a {
 
 .album {
     text-align: center;
-    background-color: rgba(white, 0.1);
+    background-color:rgba(255, 255, 255, 0.121);
+    /* opacity: 0.1; */
     padding: 8px;
 
 

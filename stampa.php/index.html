@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="app.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+
+<body>
+    <div id="app">
+        <header class="headerLogo">
+            <figure class="figureLogo">
+                <img src="./Spotify_Logo.png" alt="">
+            </figure>
+        </header>
+        <main class="mainContent">
+            <section class="">
+                <div class="container">
+                    <ul class="albumWrap">
+
+
+                        <li v-for="disco in dischi" class="card album">
+
+                            <figure class="cardThumb">
+                                <img :src="disco.poster" alt="">
+                            </figure>
+
+                            <div class="infoCard">
+                                <h3 class="titleCard">
+                                   {{disco.title}}
+                                </h3>
+                                <p class="authorCard">
+                                   {{disco.author}}
+                                </p>
+                                <p class="yearCard">
+                                    {{disco.year}}
+                                </p>
+
+                            </div>
+
+                        </li>
+
+
+
+                       <script src="app.js"></script>
+
+                    </ul>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+
+</html>
